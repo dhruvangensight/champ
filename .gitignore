@@ -1,0 +1,14 @@
+# Bower dependency directory (https://bower.io/)
+bower_components
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+# Dependency directories
+node_modules/
+jspm_packages/
+# Optional npm cache directory
+.npm
+# dotenv environment variables file
+.env
+.env.test
+# rollup.js default build output
+dist/
