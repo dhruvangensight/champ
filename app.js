@@ -35,6 +35,8 @@ db.mongoose
 
 function initial() {
   Role.estimatedDocumentCount((err, count) => {
+    console.log(count, "count");
+
     if (!err && count === 0) {
       new Role({
         name: "user"
